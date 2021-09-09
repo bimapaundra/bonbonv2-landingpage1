@@ -1,0 +1,379 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar css */
+
+.navbar {
+  /* padding: 0 0 4.5rem; */
+}
+
+/* .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  } */
+
+.nav-item {
+  padding: 0 5px;
+}
+
+.nav-item .verticalLine {
+  border-left: 1px solid #ffffff;
+  height: 40px;
+}
+
+.nav-link {
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 22px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.register-button {
+  background: #00cc36;
+  border-color: #00cc36;
+  border-radius: 8px;
+}
+
+/* end of navbar css */
+
+#title {
+  background: linear-gradient(
+    180deg,
+    #005d30 5.32%,
+    #028a49 44.28%,
+    #03b761 100%
+  );
+  color: white;
+}
+
+#title .title-text {
+  margin-top: 100px;
+}
+
+#title h1 {
+  font-family: "Montserrat";
+  font-size: 24px;
+  line-height: 32px;
+  line-height: 1.5;
+  font-weight: bold;
+  color: white;
+}
+
+#title p {
+  font-size: 14px;
+  line-height: 22px;
+  padding-right: 5%;
+}
+
+#title .download-buttons {
+  /* margin: 5% 3% 5% 0; */
+  background: #00cc36;
+  border-color: #00cc36;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 0;
+}
+
+.img-texture {
+  position: relative;
+  right: 40%;
+  width: 160%;
+}
+
+#features {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+#features .container-fluid {
+  padding: 3% 0;
+}
+
+#features h3 {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#features img {
+  margin-bottom: 1rem;
+}
+
+#features p {
+  color: gray;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+#features2 {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #f2f2f2;
+  position: relative;
+  z-index: 1;
+}
+
+#features2 .container-fluid {
+  padding: 3% 0;
+}
+
+#features2 h3 {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#features2 img {
+  margin-bottom: 1rem;
+}
+
+#features2 p {
+  color: gray;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+#advantages {
+  background-color: #fafafa;
+}
+
+#advantages h1 {
+  font-family: "Montserrat";
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 54px;
+}
+
+#advantages .benefit {
+  padding-top: 50px;
+}
+
+#advantages .benefit img {
+  width: 100%;
+}
+
+#partners {
+  background: linear-gradient(134.36deg, #3fffa3 1.7%, #f2ffee 68.86%);
+  text-align: center;
+}
+
+#partners h1 {
+  font-family: "Montserrat";
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 54px;
+}
+
+#partners .container-fluid {
+  padding: 3% 7%;
+}
+
+#partners .list-partners {
+  padding-top: 50px;
+}
+
+#testimonials {
+  background: linear-gradient(100.46deg, #a0e6ff 20.81%, #1482ca 100%);
+  text-align: center;
+}
+
+#testimonials h1 {
+  font-family: "Montserrat";
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 54px;
+}
+
+#testimonials .testimonial-box {
+  background-color: white;
+  margin: 50px 80px;
+  border-radius: 1rem !important;
+}
+
+#testimonials .testimonial-box .testimonial-content {
+  padding: unset;
+}
+
+#testimonials .testimonial-box .testi-img {
+  float: left;
+  width: 255px;
+  height: 255px;
+  border-radius: 1rem !important;
+}
+
+#testimonials .review {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #595959;
+  text-align: left;
+  margin-left: -80px;
+  padding-top: 30px;
+}
+
+table {
+  margin-left: -80px;
+  margin-top: 20px;
+}
+
+#testimonials .avatar {
+  margin-right: 15px;
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+}
+
+#testimonials .user-review {
+  text-align: left;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #595959;
+}
+
+#testimonials .user-shop {
+  text-align: left;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #595959;
+}
+
+#testimonials .carousel-indicators {
+  left: auto;
+}
+
+#testimonials .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+#about {
+  background: linear-gradient(0deg, #ffffff, #ffffff),
+    linear-gradient(180deg, rgba(245, 245, 245, 0) 0%, #f5f5f5 100%);
+}
+
+#about .about-box {
+  padding: 80px 0;
+}
+
+#about h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+}
+
+#about p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #595959;
+}
+
+#about .about-img {
+  position: absolute;
+  z-index: 1;
+  left: -15%;
+}
+
+#maps {
+  background: #f2f2f2;
+  position: relative;
+  bottom: 50px;
+}
+
+#maps h1 {
+  font-family: "Montserrat";
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 54px;
+  margin-top: 100px;
+}
+
+.maps-content {
+  margin-top: 50px;
+}
+
+.maps-content img {
+  width: 100%;
+}
+
+.maps-content h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #595959;
+}
+
+.maps-content p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #595959;
+}
+
+/* #maps .container-fluid {
+  padding: unset;
+} */
+
+#info h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #e8e8e8;
+}
+
+#info p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #d9d9d9;
+}
+
+body {
+  font-family: "Open Sans";
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
