@@ -1,3 +1,8 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -304,12 +309,17 @@ table {
   position: absolute;
   z-index: 1;
   left: -15%;
+  width: 150%;
 }
 
 #maps {
   background: #f2f2f2;
   position: relative;
   bottom: 50px;
+}
+
+#maps .container-fluid {
+  margin-bottom: -50px;
 }
 
 #maps h1 {
@@ -333,10 +343,10 @@ table {
 .maps-content h3 {
   font-family: "Open Sans";
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 22px;
-  color: #595959;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
 }
 
 .maps-content p {
